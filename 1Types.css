@@ -1,0 +1,28 @@
+h1 {background-color: red;}
+
+p {color: rgb(red, 0, blue);}
+h2{color: #00f;} /*HEXA TEXT COLOUR*/
+
+
+/* TEXT ALINEMENT */
+h2 {text-align: center;} /* this is used to aline text in htlm - left,right,center */ 
+
+/*FONT WEIGHT */
+h2{font-weight: bold ; font-weight: bolder;}
+p{font-weight: 700;}
+/* font weight - normal, bold, 100, lighter*/
+
+/*TEXT - DECORATION*/
+p {text-decoration: underline;} 
+/*the text decoration - underline, overline, line-through...*/
+
+/*LINE HEIGHT */
+h2 {line-height: 6;}
+
+/*LETTER SAPCING*/
+h2{letter-spacing: 10px;}
+
+/*FONT FAMILY */
+h2 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+/* it changes font family or decide font */
+
