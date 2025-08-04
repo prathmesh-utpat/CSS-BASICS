@@ -1,0 +1,50 @@
+/*SELECTOR AND THEIR TYPES*/ 
+
+/* 1. UNIVERSAL SELECTOR */
+*p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  /* It changes all <p> elements */
+
+
+
+  
+  /* 2. ELEMENT SELECTOR */
+  h2 {
+    background-color: aqua;
+  }
+  /* It selects all <h2> elements */
+
+
+
+  
+  /* 3. ID SELECTOR */
+  #MYID {
+    color: red;
+  }
+  /* Selects <p id="intro"> only */
+
+
+
+  
+  /* 4. CLASS SELECTOR */
+  .para {
+    font-size: 18px;
+  }
+  /* Selects <p class="para"> only */
+
+
+  
+  
+  /* 5. DESCENDANT SELECTOR */
+  div p {
+    line-height: 1.6;
+  }
+  /* Selects <p> inside <div> only */
+  
+  /* 6. ATTRIBUTE SELECTOR */
+  p[title] {
+    border: 1px solid black;
+  }
+  /* Selects <p> that has a 'title' attribute */
+  
