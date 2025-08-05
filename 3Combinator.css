@@ -1,0 +1,36 @@
+/* TYPES OF COMBINATOR */
+
+/* 1. ADJACENT SIBLING COMBINATOR */
+p + h3 {
+    background-color: azure;
+  }
+  /* IT SELECT <h3> THAT COMES IMMEDIATELY AFTER <p> */
+
+
+
+  
+  
+  /* 2. CHILD COMBINATOR */
+  div > p {
+    color: blue;
+  }
+  /* IT SELECT <p> THAT IS A DIRECT CHILD OF <div> */
+
+
+
+  
+  
+  /* 3. DESCENDANT COMBINATOR */
+  div p {
+    font-weight: bold;
+  }
+  /* IT SELECT ALL <p> INSIDE <div> AT ANY LEVEL */
+
+  
+  
+  
+  /* 4. GENERAL SIBLING COMBINATOR */
+  p ~ h3 {
+    text-decoration: underline;
+  }
+  /* IT SELECT ALL <h3> THAT ARE SIBLINGS AFTER <p> */
