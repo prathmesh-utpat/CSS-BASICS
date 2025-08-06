@@ -1,0 +1,50 @@
+/* PSEUDO-CLASS TYPES */
+
+/* 1. :hover */
+button:hover {
+    background-color: yellow;
+  }
+  /* When mouse hovers over the button */
+  
+  /* 2. :active */
+  a:active {
+    color: red;
+  }
+  /* When the link is being clicked */
+  
+  /* 3. :focus */
+  input:focus {
+    border: 2px solid blue;
+  }
+  /* When the input is focused (clicked or tabbed into) */
+  
+  /* 4. :first-child */
+  p:first-child {
+    font-weight: bold;
+  }
+  /* Selects the first <p> child of its parent */
+  
+  /* 5. :last-child */
+  p:last-child {
+    font-style: italic;
+  }
+  /* Selects the last <p> child of its parent */
+  
+  /* 6. :nth-child(n) */
+  li:nth-child(2) {
+    color: green;
+  }
+  /* Selects the 2nd <li> item */
+  
+  /* 7. :not(selector) */
+  p:not(.special) {
+    color: gray;
+  }
+  /* Selects all <p> that do NOT have class "special" */
+  
+  /* 8. :checked */
+  input:checked {
+    outline: 2px solid red;
+  }
+  /* When a checkbox or radio is checked */
+  
